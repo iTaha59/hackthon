@@ -1,0 +1,41 @@
+.navbar {
+    position: sticky !important;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.d-img {
+    width: 40% !important;
+}
+
+.b-img {
+    width: 100%;
+}
+
+.text {
+    width: 40% !important;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.text h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text h2 {
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#a1 h1, #a2 h1, #a3 h1 {
+    color: rgb(129, 3, 3);
+    font-weight: bold;
+    margin: 5px 20px;
+}
